@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500">
-  <foreignObject width="500" height="500">
-    <iframe xmlns="http://www.w3.org/1999/xhtml" src="javascript:alert('xss')" width="400" height="250"/>
-  </foreignObject>
+  window.name = "img src=x onerror=alert()>"
+  location.href = "https://example.com?redirect=javascript:window.name"
+  window.location.href="javascript:'this text will be <b>reflected</b>'"  
 </svg>
